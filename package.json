@@ -1,0 +1,19 @@
+{
+  "name": "express-auto-router",
+  "version": "1.0.0",
+  "description": "自动挂载路由",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lth707/express-auto-router.git"
+  },
+  "author": "litinghong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lth707/express-auto-router/issues"
+  },
+  "homepage": "https://github.com/lth707/express-auto-router#readme"
+}

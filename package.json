@@ -1,5 +1,5 @@
 {
-  "name": "express-auto-router",
+  "name": "my-express-auto-router",
   "version": "1.0.0",
   "description": "自动挂载路由",
   "main": "index.js",

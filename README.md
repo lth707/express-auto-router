@@ -21,5 +21,5 @@
  这个文件会被后端挂载在路由/users/other和/users,因为index方法会被忽略掉路径名。然后/users/other路由get和post请求都可以而/users只能get请求，这里和mathodMap刚好对应上
 
 
-  [1]: ./images/dir.png "dir.png"
-  [2]: ./images/users.png "users.png"
+  [1]: https://github.com/lth707/express-auto-router/master/images/dir.png "dir.png"
+  [2]: https://github.com/lth707/express-auto-router/master/images/dir.png "users.png"

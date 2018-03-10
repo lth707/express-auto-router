@@ -14,7 +14,8 @@
 >3、说明
 >
 > ![enter description here][1]
-  如上图我的routes的目录是这样，那么后端自动把index.js映射到路由/、users.js映射到/users路由，inner映射/inner/xxx,注意index文件名和目录名都不会加入到路由的路径上，同时根目录routes也不会被加入到路由路径。
+  
+ 如上图我的routes的目录是这样，那么后端自动把index.js映射到路由/、users.js映射到/users路由，inner映射/inner/xxx,注意index文件名和目录名都不会加入到路由的路径上，同时根目录routes也不会被加入到路由路径。
   打开文件users.js,代码如下
  ![enter description here][2]
  可以看到users引出了连个方法index和other,以及一个methodMap。

@@ -18,6 +18,7 @@
  如上图我的routes的目录是这样，那么后端自动把index.js映射到路由/、users.js映射到/users路由，inner映射/inner/xxx,注意index文件名和目录名都不会加入到路由的路径上，同时根目录routes也不会被加入到路由路径。
   打开文件users.js,代码如下
  ![enter description here][2]
+ 
  可以看到users引出了连个方法index和other,以及一个methodMap。
  这个文件会被后端挂载在路由/users/other和/users,因为index方法会被忽略掉路径名。然后/users/other路由get和post请求都可以而/users只能get请求，这里和mathodMap刚好对应上
 

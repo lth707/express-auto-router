@@ -1,5 +1,4 @@
-# my-express-auto-router一个用于自动挂再后端路由的包
-
+# my-express-auto-router一个用于自动挂再后端路由的包，减少手动写路由的麻烦，还能有效防止路由重复的问题
 ### 使用方式 
 
 > 1、安装my-express-auto-router``` npm i my-express-auto-router ```
